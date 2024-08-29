@@ -1,3 +1,20 @@
+## Neste tutorial, vamos explorar o processo de implementação de um sistema de autenticação de usuários utilizando um servidor único. 
+A autenticação é uma etapa essencial em muitos aplicativos, garantindo que apenas usuários autorizados possam acessar recursos protegidos.
+
+### Objetivo:
+Nosso objetivo é criar um sistema básico de autenticação em um servidor usando Node.js e Express. Começaremos configurando um servidor simples que permite registrar e autenticar usuários. Em um segundo momento, evoluiremos o sistema para utilizar JSON Web Tokens (JWT) para uma autenticação mais robusta e segura.
+
+### Parte 1:
+Autenticação Básica com Node.js e Express Inicialmente, implementaremos um sistema de autenticação básico onde armazenaremos as credenciais dos usuários em memória. Você aprenderá a configurar o ambiente, criar endpoints para registro e login de usuários, e testar o sistema usando ferramentas como Postman.
+
+### Parte 2:
+Compreensão de Autenticação vs. Autorização Após configurar a autenticação básica, exploraremos a diferença entre autenticação e autorização. A autenticação é o processo de verificar a identidade do usuário, enquanto a autorização define quais permissões um usuário tem após a autenticação. Vamos discutir essas diferenças e ver exemplos práticos para entender como cada conceito é aplicado.
+
+### Parte 3:
+Autenticação com JSON Web Tokens (JWT) Finalmente, avançaremos para a autenticação com JWT, que é uma abordagem mais moderna e escalável. Implementaremos a geração e validação de tokens JWT para proteger endpoints e garantir que apenas usuários autenticados possam acessar recursos restritos. Aprenderemos também a configurar variáveis de ambiente e gerenciar tokens com segurança.
+
+Este tutorial é projetado para fornecer uma compreensão sólida dos fundamentos da autenticação e autorização, com exemplos práticos que podem ser aplicados em diversos cenários de desenvolvimento. Vamos começar configurando o ambiente e implementando o servidor básico de autenticação.
+
 # 1. Autenticação de Usuários (Single Server)
 ## Objetivo: Implementar um sistema básico de autenticação de usuários em um único servidor.
 
